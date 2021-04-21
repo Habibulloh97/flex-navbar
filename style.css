@@ -1,0 +1,36 @@
+.nav{
+    background-color: rgb(121, 120, 120);
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    color: white;
+}
+.nav-links{
+    display: flex;
+    margin-left: 820px;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+}
+.nav-links a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.btn{
+    background-color:#00ffff91;
+    border-style: solid;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    border: 1px solid #00ffff91;
+    box-shadow: 5px 5px 5px black;
+    border-color: black;
+}
